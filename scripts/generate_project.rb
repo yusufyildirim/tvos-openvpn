@@ -9,8 +9,8 @@ FileUtils.rm_rf(project_path)
 project = Xcodeproj::Project.new(project_path)
 
 deployment_target = "17.0"
-bundle_prefix = "com.yusuf.TVOpenVPNClient"
-app_group = "group.com.yusuf.TVOpenVPNClient"
+bundle_prefix = "gs.tinythin.TVOpenVPNClient"
+app_group = "group.gs.tinythin.TVOpenVPNClient"
 
 project.build_configurations.each do |config|
   config.build_settings["SWIFT_VERSION"] = "6.0"

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF12F22A67B47A7B6856E27D"
+               BlueprintIdentifier = "4CDCB194BE7197F79D9ABC29"
                BuildableName = "TVOpenVPNClient.app"
                BlueprintName = "TVOpenVPNClient"
                ReferencedContainer = "container:TVOpenVPNClient.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF12F22A67B47A7B6856E27D"
+            BlueprintIdentifier = "4CDCB194BE7197F79D9ABC29"
             BuildableName = "TVOpenVPNClient.app"
             BlueprintName = "TVOpenVPNClient"
             ReferencedContainer = "container:TVOpenVPNClient.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF12F22A67B47A7B6856E27D"
+            BlueprintIdentifier = "4CDCB194BE7197F79D9ABC29"
             BuildableName = "TVOpenVPNClient.app"
             BlueprintName = "TVOpenVPNClient"
             ReferencedContainer = "container:TVOpenVPNClient.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF12F22A67B47A7B6856E27D"
+            BlueprintIdentifier = "4CDCB194BE7197F79D9ABC29"
             BuildableName = "TVOpenVPNClient.app"
             BlueprintName = "TVOpenVPNClient"
             ReferencedContainer = "container:TVOpenVPNClient.xcodeproj">

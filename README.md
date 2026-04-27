@@ -17,8 +17,8 @@ curl --data-binary @client.ovpn http://APPLE_TV_IP:8080/profiles/client.ovpn
 
 Change these placeholders before installing on a device:
 
-- Bundle ID prefix: `com.yusuf.TVOpenVPNClient`
-- App Group: `group.com.yusuf.TVOpenVPNClient`
+- Bundle ID prefix: `gs.tinythin.TVOpenVPNClient`
+- App Group: `group.gs.tinythin.TVOpenVPNClient`
 - Enable Network Extensions / Packet Tunnel entitlement for the app and extension in your Apple Developer account.
 
 Simulator builds can be checked with code signing disabled:

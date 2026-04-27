@@ -11,7 +11,7 @@ final class VPNController: ObservableObject {
     @Published var password = ""
 
     private var manager: NETunnelProviderManager?
-    private let logger = Logger(subsystem: "com.yusuf.TVOpenVPNClient", category: "VPNController")
+    private let logger = Logger(subsystem: "gs.tinythin.TVOpenVPNClient", category: "VPNController")
 
     func load() async {
         do {
