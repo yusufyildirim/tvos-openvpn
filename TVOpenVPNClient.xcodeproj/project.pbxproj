@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02AE56C1E230A28BB4BDE2E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3836A5C3A53E8A429C9572A /* ContentView.swift */; };
+		100B48EFAD133B39784A0C75 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A670065C2179A3A9E13D96E /* PacketTunnelProvider.swift */; };
+		1106399EE1493383ECAA542A /* partout in Frameworks */ = {isa = PBXBuildFile; productRef = 27E67BE386EF22F565613748 /* partout */; };
+		255F7EFDB02D45F59E9C9EDB /* PartoutIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B021D634251735A433036A /* PartoutIntegration.swift */; };
+		2CA371BA0EF28C25B7B2C92E /* OpenVPNProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AF3A7A8E1F04A3A0AAEAFB /* OpenVPNProfile.swift */; };
+		3417F62770642DA3C9DB7E66 /* VPNController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F98E78FC229B48062DD415 /* VPNController.swift */; };
+		4BFE5EA51181AD146339A4BA /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C79F252F009F5A779EC7F /* AppConstants.swift */; };
+		59350B8EB09192FDDD36B202 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6DC93F23E8C1E4590D8704 /* Foundation.framework */; };
+		64012E1F7688677005F939DC /* ProfileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902F7DCEB671A4A98113C9F7 /* ProfileStore.swift */; };
+		7E2562FE47F5728F944A1C1B /* partout in Frameworks */ = {isa = PBXBuildFile; productRef = 05B43E07170BBE625CDD8EBE /* partout */; };
+		9911EB3DE1F690A4A7EA4DF8 /* OVPNParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E630F6DC7459B275B24014A /* OVPNParser.swift */; };
+		9C7D61CAFC51800A39DE32BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6DC93F23E8C1E4590D8704 /* Foundation.framework */; };
+		B441A432CB817911F4E1975E /* SharedContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA986B60705D8E9250A2582 /* SharedContainer.swift */; };
+		BFBE1E8028AC8821FA56A48F /* SharedContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA986B60705D8E9250A2582 /* SharedContainer.swift */; };
+		C935AC3C4EBE379D3980605E /* PacketTunnel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5D9D48230A3CE905040206EA /* PacketTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D7130E46EA612714F6C81866 /* ProfileUploadServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C314F295A35CFFAC87497077 /* ProfileUploadServer.swift */; };
+		E4169B5E39C20605FEAA90CF /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C79F252F009F5A779EC7F /* AppConstants.swift */; };
+		E427856C14970A1E9F31813D /* OVPNParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E630F6DC7459B275B24014A /* OVPNParser.swift */; };
+		F3BED4AF0D0461C62562CF37 /* TVOpenVPNClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CAB6E44A6FE695DBB25EF /* TVOpenVPNClientApp.swift */; };
+		FB5FBC3DD2DD9E659A0C0468 /* PartoutIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B021D634251735A433036A /* PartoutIntegration.swift */; };
+		FD1A806616B5152133CBC106 /* OpenVPNProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AF3A7A8E1F04A3A0AAEAFB /* OpenVPNProfile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F342D73B02FC2EE3835DEEBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BE993E7842D48B914932D25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EB595D72372E3636304D0B6;
+			remoteInfo = PacketTunnel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		94C50225D733C75E1B22120D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C935AC3C4EBE379D3980605E /* PacketTunnel.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2E630F6DC7459B275B24014A /* OVPNParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OVPNParser.swift; path = Shared/OVPNParser.swift; sourceTree = "<group>"; };
+		2FA986B60705D8E9250A2582 /* SharedContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SharedContainer.swift; path = Shared/SharedContainer.swift; sourceTree = "<group>"; };
+		39AF3A7A8E1F04A3A0AAEAFB /* OpenVPNProfile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenVPNProfile.swift; path = Shared/OpenVPNProfile.swift; sourceTree = "<group>"; };
+		59F98E78FC229B48062DD415 /* VPNController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPNController.swift; path = TVOpenVPNClient/App/VPNController.swift; sourceTree = "<group>"; };
+		5C6CAB6E44A6FE695DBB25EF /* TVOpenVPNClientApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TVOpenVPNClientApp.swift; path = TVOpenVPNClient/App/TVOpenVPNClientApp.swift; sourceTree = "<group>"; };
+		5D9D48230A3CE905040206EA /* PacketTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PacketTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6DC93F23E8C1E4590D8704 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		902F7DCEB671A4A98113C9F7 /* ProfileStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProfileStore.swift; path = TVOpenVPNClient/App/ProfileStore.swift; sourceTree = "<group>"; };
+		94A0F84C51B0FAF96B1CF1CB /* TVOpenVPNClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVOpenVPNClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97B021D634251735A433036A /* PartoutIntegration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PartoutIntegration.swift; path = Shared/PartoutIntegration.swift; sourceTree = "<group>"; };
+		9A670065C2179A3A9E13D96E /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PacketTunnelProvider.swift; path = PacketTunnel/PacketTunnelProvider.swift; sourceTree = "<group>"; };
+		A3836A5C3A53E8A429C9572A /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = TVOpenVPNClient/App/ContentView.swift; sourceTree = "<group>"; };
+		ACA9903A556892B40B00394B /* PacketTunnel.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; name = PacketTunnel.entitlements; path = PacketTunnel/PacketTunnel.entitlements; sourceTree = "<group>"; };
+		B6E8EC62EAA3364A9134F90B /* TVOpenVPNClient.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; name = TVOpenVPNClient.entitlements; path = TVOpenVPNClient/App/TVOpenVPNClient.entitlements; sourceTree = "<group>"; };
+		C314F295A35CFFAC87497077 /* ProfileUploadServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProfileUploadServer.swift; path = TVOpenVPNClient/App/ProfileUploadServer.swift; sourceTree = "<group>"; };
+		C400569468CD0D89C27B20C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = TVOpenVPNClient/App/Info.plist; sourceTree = "<group>"; };
+		ED7C79F252F009F5A779EC7F /* AppConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppConstants.swift; path = Shared/AppConstants.swift; sourceTree = "<group>"; };
+		F8306D38608D0CFA13C45B3E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = PacketTunnel/Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7815FC0254DA69B06E7AF6E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7D61CAFC51800A39DE32BD /* Foundation.framework in Frameworks */,
+				1106399EE1493383ECAA542A /* partout in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2387E093C2B1A9D6A25858F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59350B8EB09192FDDD36B202 /* Foundation.framework in Frameworks */,
+				7E2562FE47F5728F944A1C1B /* partout in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05ED7F1C2C609585E746157D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE0F7D8991E620006F80832B /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B8EF855E8CF3EA800413777 /* TVOpenVPNClient */ = {
+			isa = PBXGroup;
+			children = (
+				A3836A5C3A53E8A429C9572A /* ContentView.swift */,
+				902F7DCEB671A4A98113C9F7 /* ProfileStore.swift */,
+				C314F295A35CFFAC87497077 /* ProfileUploadServer.swift */,
+				5C6CAB6E44A6FE695DBB25EF /* TVOpenVPNClientApp.swift */,
+				59F98E78FC229B48062DD415 /* VPNController.swift */,
+				C400569468CD0D89C27B20C1 /* Info.plist */,
+				B6E8EC62EAA3364A9134F90B /* TVOpenVPNClient.entitlements */,
+			);
+			name = TVOpenVPNClient;
+			sourceTree = "<group>";
+		};
+		2E74D1905EB4034B148168AB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ED7C79F252F009F5A779EC7F /* AppConstants.swift */,
+				2E630F6DC7459B275B24014A /* OVPNParser.swift */,
+				39AF3A7A8E1F04A3A0AAEAFB /* OpenVPNProfile.swift */,
+				97B021D634251735A433036A /* PartoutIntegration.swift */,
+				2FA986B60705D8E9250A2582 /* SharedContainer.swift */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		BB3AF96B532C00E255995A21 = {
+			isa = PBXGroup;
+			children = (
+				C56EB42D19A07B4599A516DC /* Products */,
+				05ED7F1C2C609585E746157D /* Frameworks */,
+				1B8EF855E8CF3EA800413777 /* TVOpenVPNClient */,
+				E7127581B3B77170E24FE14C /* PacketTunnel */,
+				2E74D1905EB4034B148168AB /* Shared */,
+			);
+			sourceTree = "<group>";
+		};
+		C56EB42D19A07B4599A516DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94A0F84C51B0FAF96B1CF1CB /* TVOpenVPNClient.app */,
+				5D9D48230A3CE905040206EA /* PacketTunnel.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE0F7D8991E620006F80832B /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				8C6DC93F23E8C1E4590D8704 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		E7127581B3B77170E24FE14C /* PacketTunnel */ = {
+			isa = PBXGroup;
+			children = (
+				9A670065C2179A3A9E13D96E /* PacketTunnelProvider.swift */,
+				F8306D38608D0CFA13C45B3E /* Info.plist */,
+				ACA9903A556892B40B00394B /* PacketTunnel.entitlements */,
+			);
+			name = PacketTunnel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EB595D72372E3636304D0B6 /* PacketTunnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8801E1E75FA242104BD65B /* Build configuration list for PBXNativeTarget "PacketTunnel" */;
+			buildPhases = (
+				6132BBEE979207AA01AFC376 /* Sources */,
+				7815FC0254DA69B06E7AF6E3 /* Frameworks */,
+				87718C8B687025BC111F255F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PacketTunnel;
+			packageProductDependencies = (
+				27E67BE386EF22F565613748 /* partout */,
+			);
+			productName = PacketTunnel;
+			productReference = 5D9D48230A3CE905040206EA /* PacketTunnel.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DF12F22A67B47A7B6856E27D /* TVOpenVPNClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248930DAD351E8D3771A566C /* Build configuration list for PBXNativeTarget "TVOpenVPNClient" */;
+			buildPhases = (
+				0A9DDDFA5FF63D743690F473 /* Sources */,
+				F2387E093C2B1A9D6A25858F /* Frameworks */,
+				186DA6A6121CB76044C6197B /* Resources */,
+				94C50225D733C75E1B22120D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49A2D12F7059E04367601450 /* PBXTargetDependency */,
+			);
+			name = TVOpenVPNClient;
+			packageProductDependencies = (
+				05B43E07170BBE625CDD8EBE /* partout */,
+			);
+			productName = TVOpenVPNClient;
+			productReference = 94A0F84C51B0FAF96B1CF1CB /* TVOpenVPNClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BE993E7842D48B914932D25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 58BFD07DB914E626B525A4DC /* Build configuration list for PBXProject "TVOpenVPNClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB3AF96B532C00E255995A21;
+			packageReferences = (
+				75640B714C52288BB5002BEC /* XCRemoteSwiftPackageReference "partout" */,
+			);
+			productRefGroup = C56EB42D19A07B4599A516DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF12F22A67B47A7B6856E27D /* TVOpenVPNClient */,
+				1EB595D72372E3636304D0B6 /* PacketTunnel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186DA6A6121CB76044C6197B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87718C8B687025BC111F255F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A9DDDFA5FF63D743690F473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AE56C1E230A28BB4BDE2E9 /* ContentView.swift in Sources */,
+				64012E1F7688677005F939DC /* ProfileStore.swift in Sources */,
+				D7130E46EA612714F6C81866 /* ProfileUploadServer.swift in Sources */,
+				F3BED4AF0D0461C62562CF37 /* TVOpenVPNClientApp.swift in Sources */,
+				3417F62770642DA3C9DB7E66 /* VPNController.swift in Sources */,
+				4BFE5EA51181AD146339A4BA /* AppConstants.swift in Sources */,
+				E427856C14970A1E9F31813D /* OVPNParser.swift in Sources */,
+				FD1A806616B5152133CBC106 /* OpenVPNProfile.swift in Sources */,
+				FB5FBC3DD2DD9E659A0C0468 /* PartoutIntegration.swift in Sources */,
+				BFBE1E8028AC8821FA56A48F /* SharedContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6132BBEE979207AA01AFC376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100B48EFAD133B39784A0C75 /* PacketTunnelProvider.swift in Sources */,
+				E4169B5E39C20605FEAA90CF /* AppConstants.swift in Sources */,
+				9911EB3DE1F690A4A7EA4DF8 /* OVPNParser.swift in Sources */,
+				2CA371BA0EF28C25B7B2C92E /* OpenVPNProfile.swift in Sources */,
+				255F7EFDB02D45F59E9C9EDB /* PartoutIntegration.swift in Sources */,
+				B441A432CB817911F4E1975E /* SharedContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49A2D12F7059E04367601450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PacketTunnel;
+			target = 1EB595D72372E3636304D0B6 /* PacketTunnel */;
+			targetProxy = F342D73B02FC2EE3835DEEBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		50681D39CE823E659A0A08DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				APPLICATION_GROUP_IDENTIFIER = group.com.yusuf.TVOpenVPNClient;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = PacketTunnel/PacketTunnel.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Z6GM947AG;
+				"EXCLUDED_ARCHS[sdk=appletvsimulator*]" = x86_64;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PacketTunnel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yusuf.TVOpenVPNClient.PacketTunnel;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 6.0;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		7AE80058D5717AE0EC761318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				APPLICATION_GROUP_IDENTIFIER = group.com.yusuf.TVOpenVPNClient;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = PacketTunnel/PacketTunnel.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Z6GM947AG;
+				"EXCLUDED_ARCHS[sdk=appletvsimulator*]" = x86_64;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PacketTunnel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yusuf.TVOpenVPNClient.PacketTunnel;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 6.0;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8446D4FA41EB52771CBF4D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_GROUP_IDENTIFIER = group.com.yusuf.TVOpenVPNClient;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TVOpenVPNClient/App/TVOpenVPNClient.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Z6GM947AG;
+				"EXCLUDED_ARCHS[sdk=appletvsimulator*]" = x86_64;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TVOpenVPNClient/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yusuf.TVOpenVPNClient;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9548868A4229FCD1017E0AAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_GROUP_IDENTIFIER = group.com.yusuf.TVOpenVPNClient;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TVOpenVPNClient/App/TVOpenVPNClient.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Z6GM947AG;
+				"EXCLUDED_ARCHS[sdk=appletvsimulator*]" = x86_64;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TVOpenVPNClient/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yusuf.TVOpenVPNClient;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		98B2B5B2B382F0E6960FA400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		C882D303E5C4922C5A4A400D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		248930DAD351E8D3771A566C /* Build configuration list for PBXNativeTarget "TVOpenVPNClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8446D4FA41EB52771CBF4D50 /* Release */,
+				9548868A4229FCD1017E0AAF /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8801E1E75FA242104BD65B /* Build configuration list for PBXNativeTarget "PacketTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE80058D5717AE0EC761318 /* Release */,
+				50681D39CE823E659A0A08DE /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58BFD07DB914E626B525A4DC /* Build configuration list for PBXProject "TVOpenVPNClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C882D303E5C4922C5A4A400D /* Debug */,
+				98B2B5B2B382F0E6960FA400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		75640B714C52288BB5002BEC /* XCRemoteSwiftPackageReference "partout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/partout-io/partout";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		05B43E07170BBE625CDD8EBE /* partout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75640B714C52288BB5002BEC /* XCRemoteSwiftPackageReference "partout" */;
+			productName = partout;
+		};
+		27E67BE386EF22F565613748 /* partout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75640B714C52288BB5002BEC /* XCRemoteSwiftPackageReference "partout" */;
+			productName = partout;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3BE993E7842D48B914932D25 /* Project object */;
+}
